@@ -22,4 +22,24 @@ public class EjerciciosRecursivos {
         int resultado = n+ resultadoParcial;
         return resultado;
     }
+
+public int getPotencia (int base ,int exponente){
+
+    if(exponente == 0){
+
+return 1;
+    }
+    int resultado = base * getPotencia(base, exponente-1);
+    return resultado;
+}
+
+public static int sumaDigitos(int numero) {
+    if (numero < 10) {
+        return numero;
+    } else {
+        return (numero % 10) + sumaDigitos(numero / 10);
+    }
+}
+
+
 }
