@@ -41,5 +41,26 @@ public static int sumaDigitos(int numero) {
     }
 }
 
+public void MetodoRecursivoDescendente(int n){
+if(n < 1) 
+return;
+System.out.println(n+" ");
+System.out.println(n-1);
+
+}
+
+public void metodoInverso(int n){
+if(n < 10)
+{
+System.out.println(n);
+
+}
+else{
+    System.out.println(n% 10);
+    metodoInverso(n /10);
+}
+
+}
+
 
 }

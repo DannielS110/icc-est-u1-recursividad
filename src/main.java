@@ -10,7 +10,10 @@ public class main {
            int numero= 125; 
            int sumaD = serie.sumaDigitos(numero);
            System.out.println("el suma de digitos fue:"+sumaD);
-
+           System.out.println("impresion del descendente 2: ");
+           serie.MetodoRecursivoDescendente(2);
+           System.out.println("inverso del numero 792: ");
+           serie.metodoInverso(792);
 
     }
 }
