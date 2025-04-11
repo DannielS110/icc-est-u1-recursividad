@@ -44,8 +44,8 @@ public static int sumaDigitos(int numero) {
 public void MetodoRecursivoDescendente(int n){
 if(n < 1) 
 return;
-System.out.println(n+" ");
-System.out.println(n-1);
+System.out.print(n+" ");
+MetodoRecursivoDescendente(n-1);
 
 }
 
